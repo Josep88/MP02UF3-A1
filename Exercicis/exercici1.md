@@ -8,6 +8,7 @@ EXPLAIN sense índex:
   
 ÍNDEX:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/06i.PNG)  
+Reaprofito un índex que crearé pel exercici 6.  
   
 EXPLAIN amb índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/012.PNG)  
