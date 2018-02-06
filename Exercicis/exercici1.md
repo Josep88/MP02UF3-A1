@@ -14,6 +14,13 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/012.PNG)  
   
 #### 2. Obtenir el nom dels clients (Nom i cognom) que el seu cognom comenci per vocal (sense tenir en compte els accents).  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/02.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/020.PNG)  
+  
+No es pot millorar amb índexs ja que esta utilitzant un expressió regular per analitzar els cognoms.
+  
 #### 3. Quina és la reserva_id que té més nits. Indica també la quantitat de nits.  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
 #### 5. Obtenir el nom i cognoms dels clients que varen néixer el mes de Març.  
