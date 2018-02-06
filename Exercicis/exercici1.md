@@ -2,13 +2,16 @@
   
 #### 1. Obtenir el nom i l’adreça dels hotels de 4 estrelles.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/01.PNG)  
+  
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/010.PNG)  
+  
 ÍNDEX:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/06i.PNG)  
+  
 EXPLAIN amb índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/012.PNG)  
-
+  
 #### 2. Obtenir el nom dels clients (Nom i cognom) que el seu cognom comenci per vocal (sense tenir en compte els accents).  
 #### 3. Quina és la reserva_id que té més nits. Indica també la quantitat de nits.  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
