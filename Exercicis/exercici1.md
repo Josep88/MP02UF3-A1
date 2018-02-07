@@ -127,6 +127,17 @@ EXPLAIN sense índex:
 No es pot indexar, la subconsulta més baixa ja filtra per la clau forana, la superior selecciona sobre aquesta subconsulta i la consulta superior ja filtra per mitja de la clau forana també.  
 ***  
 #### 17. Quina és la mitjana de nits dels clients provinents d’‘HOLANDA’ per l’any 2016?  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/17.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/170.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/13i.PNG)  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/17i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/171.PNG)  
 ***  
 #### 18. Digues el nom i cognoms dels clients que el seu cognom sigui ‘Bahi’.  
 ***  
