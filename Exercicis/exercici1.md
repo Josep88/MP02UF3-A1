@@ -27,7 +27,7 @@ No es pot millorar amb índexs ja que esta utilitzant un expressió regular per 
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/030.PNG)  
   
-No es pot indexar ja s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
+No es pot indexar ja que s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/04.PNG)  
@@ -47,7 +47,7 @@ EXPLAIN amb índex:
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/050.PNG)  
   
-No es pot indexar ja s'està utilitzant una funció MONTH per treure el valor a comparar i necesita comprovar tots els casos.  
+No es pot indexar ja que s'està utilitzant una funció MONTH per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 6. Quantitat d’hotels de 4 estrelles de la població de Barcelona.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/06.PNG)  
@@ -68,7 +68,7 @@ EXPLAIN amb índex:
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/070.PNG)  
   
-No es pot indexar ja s'està utilitzant les funcions YEAR i MONTH i necesita comparar tots els camps.
+No es pot indexar ja que s'està utilitzant les funcions YEAR i MONTH i necesita comparar tots els camps.
 ***  
 #### 8. El nom dels hotels que tenen com a mínim una habitació lliure durant les dates ‘2015-05-01’ i ‘2015-05-17’.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/08.PNG)  
@@ -88,9 +88,15 @@ EXPLAIN amb índex:
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/090.PNG)  
   
-No es pot indexar ja s'està utilitzant la funció DAYOFWEEK i un ORDER BY, per tant necesita comparar tots els camps.
+No es pot indexar ja que s'està utilitzant la funció DAYOFWEEK i un ORDER BY, per tant necesita comparar tots els camps.  
 ***  
 #### 10. Durant 2014 qui va realitzar més reserves? Els homes o les dones? Mostra el sexe i el número de reserves.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/10.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/100.PNG)  
+  
+No es pot indexar, ja agafa la clau forana com a filtre i no treure'n més.  
 ***  
 #### 11. Quina és la mitjana de dies de reserva per l’hotel «HTOP Royal Star» de Blanes durant l’any 2016? (Una reserva pertany el 2016 si alguna nit cau en aquest any).  
 ***  
