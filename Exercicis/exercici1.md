@@ -62,6 +62,13 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/061.PNG)  
 ***  
 #### 7. De l’any 2015 volem obtenir els seu histograma de reserves. És a dir volem saber el número de reserves de cadascun dels mesos. Una reserva pertany a un mes si la alguna nit d’aquella reserva cau a dins de l’any 2015.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/07a.PNG)  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/07b.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/070.PNG)  
+  
+No es pot indexar ja s'està utilitzant les funcions YEAR i MONTH i necesita comparar tots els camps.
 ***  
 #### 8. El nom dels hotels que tenen com a mínim una habitació lliure durant les dates ‘2015-05-01’ i ‘2015-05-17’.  
 ***  
