@@ -172,9 +172,25 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/201.PNG)  
 ***  
 #### 21. Quin és l’hotel amb més reserves (tota la BD).  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/21.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/210.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/04i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/211.PNG)  
 ***  
 #### 22. Quin és el país amb més reserves? (tots els anys) O sigui, quin és el país d’on han vingut més turistes.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/22.PNG)  
   
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/220.PNG)  
+  
+No es pot indexar ja que la subconsulta més baixa ja filtra al màxim per mitjà de la clau forana, la següent utilitza aquesta com a taula, i la consulta superior també ha filtrat tot lo que pot per mitjà de la clau forana.  
+
 ***
 |[Inici](https://github.com/Josep88/MP02UF3-A1)|[Següent](https://github.com/Josep88/MP02UF3-A1/blob/master/Exercicis/exercici2.md)|
 |:-:|:-:|
