@@ -27,7 +27,7 @@ No es pot millorar amb índexs ja que esta utilitzant un expressió regular per 
 EXPLAIN sense índex:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/030.PNG)  
   
-No es pot millorar ja s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
+No es pot indexar ja s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/04.PNG)  
@@ -42,8 +42,24 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/041.PNG)  
 ***  
 #### 5. Obtenir el nom i cognoms dels clients que varen néixer el mes de Març.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/05.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/050.PNG)  
+  
+No es pot indexar ja s'està utilitzant una funció MONTH per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 6. Quantitat d’hotels de 4 estrelles de la població de Barcelona.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/06.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/060.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/06i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/061.PNG)  
 ***  
 #### 7. De l’any 2015 volem obtenir els seu histograma de reserves. És a dir volem saber el número de reserves de cadascun dels mesos. Una reserva pertany a un mes si la alguna nit d’aquella reserva cau a dins de l’any 2015.  
 ***  
