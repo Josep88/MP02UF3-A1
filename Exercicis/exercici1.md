@@ -119,6 +119,12 @@ EXPLAIN amb índex:
 #### 15. Codi client, Nom, Cognom, del client que ha realitzat més reserves durant el mes d’agost de l’any 2016. Les reserves a comptabilitzar són totes aquelles que en algun dia del seu període cau en el mes d’agost.  
 ***  
 #### 16. Quin és el país que en tenim menys clients?  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/16.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/160.PNG)  
+  
+No es pot indexar, la subconsulta més baixa ja filtra per la clau forana, la superior selecciona sobre aquesta subconsulta i la consulta superior ja filtra per mitja de la clau forana també.  
 ***  
 #### 17. Quina és la mitjana de nits dels clients provinents d’‘HOLANDA’ per l’any 2016?  
 ***  
