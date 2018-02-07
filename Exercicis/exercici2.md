@@ -10,5 +10,5 @@
 #### Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.  
   
 ***
-|[Anterior](https://github.com/Josep88/MP02UF3-A1/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP02UF3-A1)|[Següent](https://github.com/Josep88/MP02UF1-A1/blob/master/Exercicis/exercici3.md)|
+|[Anterior](https://github.com/Josep88/MP02UF3-A1/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP02UF3-A1)|[Següent](https://github.com/Josep88/MP02UF3-A1/blob/master/Exercicis/exercici3.md)|
 |:-:|:-:|:-:|
