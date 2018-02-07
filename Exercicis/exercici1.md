@@ -71,6 +71,7 @@ EXPLAIN sense índex:
 No es pot indexar ja s'està utilitzant les funcions YEAR i MONTH i necesita comparar tots els camps.
 ***  
 #### 8. El nom dels hotels que tenen com a mínim una habitació lliure durant les dates ‘2015-05-01’ i ‘2015-05-17’.  
+
 ***  
 #### 9. Obtenir la quantitat de reserves que s’inicien en cadascun dels dies de la setmana. Tenint en compte només l’any 2016.   
 ***  
