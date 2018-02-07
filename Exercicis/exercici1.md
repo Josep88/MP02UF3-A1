@@ -30,6 +30,17 @@ EXPLAIN sense índex:
 No es pot millorar ja s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/04.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/040.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/04i.PNG)  
+Reaprofito un índex que crearé pel exercici 6.  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/041.PNG)  
 ***  
 #### 5. Obtenir el nom i cognoms dels clients que varen néixer el mes de Març.  
 ***  
