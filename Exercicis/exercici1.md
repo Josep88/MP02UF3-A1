@@ -22,6 +22,12 @@ EXPLAIN sense índex:
 No es pot millorar amb índexs ja que esta utilitzant un expressió regular per analitzar els cognoms.
 ***  
 #### 3. Quina és la reserva_id que té més nits. Indica també la quantitat de nits.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/03.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/030.PNG)  
+  
+No es pot millorar ja s'està utilitzant una funció DATEDIFF per treure el valor a comparar i necesita comprovar tots els casos.  
 ***  
 #### 4. Quantes reserves va rebre l’hotel ‘Catalonia Ramblas’ de Barcelona durant tot  l’any 2015 (una reserva pertany al 2015 si alguna nit d’aquesta reserva era del 2015).  
 ***  
