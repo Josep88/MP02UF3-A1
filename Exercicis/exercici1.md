@@ -103,6 +103,16 @@ No es pot indexar, ja agafa la clau forana com a filtre i no treure'n més.
 #### 12. El nom, categoria, adreça i número d’habitacions de l’hotel amb més habitacions de la BD.  
 ***  
 #### 13. Rànquing de 5 països amb més reserves durant l’any 2016. Per cada país mostrar el nom del país i el número de reserves.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/13.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/130.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/13i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/131.PNG)  
 ***  
 #### 14. Codi client, Nom, Cognom, del client que ha realitzat més reserves de tota la BD.  
 ***  
