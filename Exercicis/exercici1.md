@@ -140,6 +140,16 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/171.PNG)  
 ***  
 #### 18. Digues el nom i cognoms dels clients que el seu cognom sigui ‘Bahi’.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/18.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/180.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/18i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/181.PNG)  
 ***  
 #### 19. Quins clients (nom, cognoms) segueixen el patró de que el seu cognom comenci per la lletra ‘p’  i seguida d’una vocal.  
 ***  
