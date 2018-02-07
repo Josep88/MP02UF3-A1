@@ -83,6 +83,12 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/082.PNG)  
 ***  
 #### 9. Obtenir la quantitat de reserves que s’inicien en cadascun dels dies de la setmana. Tenint en compte només l’any 2016.   
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/09.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/090.PNG)  
+  
+No es pot indexar ja s'està utilitzant la funció DAYOFWEEK i un ORDER BY, per tant necesita comparar tots els camps.
 ***  
 #### 10. Durant 2014 qui va realitzar més reserves? Els homes o les dones? Mostra el sexe i el número de reserves.  
 ***  
