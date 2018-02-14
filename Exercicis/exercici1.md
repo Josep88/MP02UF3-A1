@@ -137,6 +137,12 @@ EXPLAIN amb índex:
 #### 14. Codi client, Nom, Cognom, del client que ha realitzat més reserves de tota la BD.  
 ***  
 #### 15. Codi client, Nom, Cognom, del client que ha realitzat més reserves durant el mes d’agost de l’any 2016. Les reserves a comptabilitzar són totes aquelles que en algun dia del seu període cau en el mes d’agost.  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/15.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/150.PNG)  
+  
+Amb les proves que hem fet, amb diferents indexs, no hem vist cap millora amb la consulta que hem creat, entenem que es degut a les diferents funcions que impossibiliten l'ús d'índex.  
 ***  
 #### 16. Quin és el país que en tenim menys clients?  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/16.PNG)  
