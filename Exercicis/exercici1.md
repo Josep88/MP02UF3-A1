@@ -111,7 +111,17 @@ EXPLAIN amb índex:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/111.PNG)  
 ***    
 #### 12. El nom, categoria, adreça i número d’habitacions de l’hotel amb més habitacions de la BD.  
-***  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/12.PNG)  
+  
+EXPLAIN sense índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/120.PNG)  
+  
+ÍNDEX:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/12i.PNG)  
+  
+EXPLAIN amb índex:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/121.PNG)  
+***    
 #### 13. Rànquing de 5 països amb més reserves durant l’any 2016. Per cada país mostrar el nom del país i el número de reserves.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici1/13.PNG)  
   
