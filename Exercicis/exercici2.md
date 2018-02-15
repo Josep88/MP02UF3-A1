@@ -40,6 +40,15 @@ query_cache_size
 | 21            | 2,3494455s    | 0,000187s    |
   
 #### Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)  
+Primer comprovem que la cache està activa:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/5.png)  
+  
+Modifiquem una consulta con el paràmetre SQL_NO_CACHE:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/6.png)  
+  
+Podem comprovar que no usa la cache pel seu temps d’execució.  
+
+  
 #### Activa la Query Cache (ON DEMAND)  
 #### Posa un exemple d'execució sota demanda.   
 #### Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)  
