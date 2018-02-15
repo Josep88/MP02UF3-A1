@@ -1,4 +1,4 @@
-### Mitjançant la eina Sysbench prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.  
+### Mitjançant la eina SYSBENCH prepara un joc de proves mitjançant les sentències SQL anteriors o d’altres que creguis que puguin anar bé per realitzar les proves.  
 #### Documenta la instal·lació de l'eina, la creació dels scripts de prova i l’execució de les proves.  
 Instal·lació:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/1install.PNG)  
@@ -7,7 +7,11 @@ Instal·lació:
 I per comprovar que està instal·lat i funcionant:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/3install.PNG)  
   
-continue
+Script LUA per executar el SYSBENCH:
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/1script.PNG)  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/2script.PNG)  
+  
+
 
 #### Test 1: Treu tots els índexs de la Part 1 i desactiva la CACHE i realitza el benchmark.  
 #### Test 2: Afegeix els índexs de  la part 1  
