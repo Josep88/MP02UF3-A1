@@ -1,5 +1,14 @@
 ### Escull 5 sentències SQL de la Part 1 (intenta que els temps d’execució siguin significatius)   
+Hem escollit aquestes consultes del exercici 1: 7, 8, 13, 20 i 21.  
+  
 #### Quins temps d'execució t'han sortit per cada consulta?  
+Habilitem PROFILING per poder veure el temps d’execució de les consultes:  
+> SET profiling = 1; 
+  
+I executem les consultes. En acabar, feim aquesta comanda per veure els temps:  
+> SHOW PROFILES;  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/1.png)  
+  
 #### Activa la Query Cache (ON)  
 #### Reexecuta les consultes anteriors 2 vegades seguides. Ha millorat el temps d'execució?  
 #### Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)  
