@@ -31,11 +31,11 @@ I faig el test:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/test3.PNG)  
   
 #### Realitza una comparativa mostrant els resultats obtinguts dels tres benchmarks.  
-| Test        | Consultes           | Temps total  |
-| ------------- |:-------------:| -----:|
-| 1      | right-aligned | $1600 |
-| 2      | centered      |   $12 |
-| 3 | are neat      |    $1 |
+| Test | Transaccions | Temps total  |
+| ---- |:------------:| ------------:|
+| 1 | 20  | 137.7 |
+| 2 | 20  | 102.7 |
+| 3 | 100 |  13.6 |
   
 #### En el tercer cas indica quin ha estat el valor de CacheHitRatio.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/cachehitratio.PNG)  
