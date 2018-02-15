@@ -9,6 +9,14 @@ I executem les consultes. En acabar, feim aquesta comanda per veure els temps:
 > SHOW PROFILES;  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/1.png)  
   
+| Consulta      | Temps         |
+| ------------- |:-------------:|
+| 7             | 1,21440075s   |
+| 8             | 0,18167575s   |
+| 13            | 0,381706s     |
+| 20            | 0,85257225s   |
+| 21            | 2,3494455s    |
+  
 #### Activa la Query Cache (ON)  
 #### Reexecuta les consultes anteriors 2 vegades seguides. Ha millorat el temps d'execució?  
 #### Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)  
