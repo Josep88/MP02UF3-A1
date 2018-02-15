@@ -73,7 +73,7 @@ Mostrem les variables d’estat:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/13.png)  
 Fem el càlcul:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/14.png)  
-Cache Hit Ratio = 2/59+2 * 100 = 3,278%  
+Cache Hit Ratio = 2/(59+2) * 100 = 3,278%  
   
 #### Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.  
   
