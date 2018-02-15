@@ -3,7 +3,11 @@
 Instal·lació:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/1install.PNG)  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/2install.PNG)  
+  
+I per comprovar que està instal·lat i funcionant:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/3install.PNG)  
+  
+continue
 
 #### Test 1: Treu tots els índexs de la Part 1 i desactiva la CACHE i realitza el benchmark.  
 #### Test 2: Afegeix els índexs de  la part 1  
