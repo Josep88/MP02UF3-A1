@@ -57,10 +57,24 @@ Comprovem que s’ha modificat correctament:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/8.png)  
   
 #### Posa un exemple d'execució sota demanda.   
-
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/9.png)  
   
 #### Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)  
+Executem la consulta amb el paràmetre SQL_CACHE:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/10.png)  
+
+  
 #### Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?  
+Seleccionem els cache_hits:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/11.png)  
+Seleccionem els cache_misses:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/12.png)  
+Mostrem les variables d’estat:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/13.png)  
+Fem el càlcul:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/14.png)  
+Cache Hit Ratio = 2/59+2 * 100 = 3,278%  
+  
 #### Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.  
   
 ***
