@@ -31,6 +31,14 @@ query_cache_size
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/4.png)  
   
 #### Reexecuta les consultes anteriors 2 vegades seguides. Ha millorat el temps d'execució?  
+| Consulta      | Temps Primera | Temps Segona |
+| ------------- |:-------------:|:------------:|
+| 7             | 1,21440075s   | 0,00035925s  |
+| 8             | 0,18167575s   | 0,000426s    |
+| 13            | 0,381706s     | 0,00026875s  |
+| 20            | 0,85257225s   | 0,00041825s  |
+| 21            | 2,3494455s    | 0,000187s    |
+  
 #### Quina modificació hem de fer perquè la consulta no passi per Cache? (reescriu una consulta amb els canvis)  
 #### Activa la Query Cache (ON DEMAND)  
 #### Posa un exemple d'execució sota demanda.   
