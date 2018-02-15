@@ -47,10 +47,18 @@ Modifiquem una consulta con el paràmetre SQL_NO_CACHE:
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/6.png)  
   
 Podem comprovar que no usa la cache pel seu temps d’execució.  
-
   
 #### Activa la Query Cache (ON DEMAND)  
+Canviem  la configuració del fitxer mysqld.cnf per activar la cache ON DEMAND.  
+Per això modifiquem el paràmetre query_cache_type = 2, i després reiniciem el servei de MYSQL:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/7.png)  
+  
+Comprovem que s’ha modificat correctament:  
+>  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici2/8.png)  
+  
 #### Posa un exemple d'execució sota demanda.   
+
+  
 #### Quina modificació hem de fer perquè la consulta passi per Cache?(reescriu la consulta amb els canvis)  
 #### Un cop acabats els punts anteriors mostra quin ha estat el teu CacheHitRatio? Com has obtingut els valors de cache_hits i cache_misses?  
 #### Demostra quines sentències DML (INSERT, UPDATE, DELETE) provoquen que es buidi la cache de les taules implicades amb aquestes sentències.  
