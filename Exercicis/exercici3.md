@@ -36,6 +36,7 @@ I faig el test:
 | 1 | 20  | 137.7 |
 | 2 | 20  | 102.7 |
 | 3 | 100 |  13.6 |
+En activar tant les índexs com la CACHE, la velocitat de les transaccions augmenta dràsticament per les consultes que ja s’han realitzat anteriorment que estan emmagatzemades en memòria. Sino, per mitja dels índexs ja s’aconsegueix reduir el temps considerablement.  
   
 #### En el tercer cas indica quin ha estat el valor de CacheHitRatio.  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP02UF3-A1/master/img/exercici3/cachehitratio.PNG)  
